@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Fill Stock </title>
+	<style type="text/css">
+		#header {
+			text-align: right;
+			font-weight: bold;
+			margin-right: 20px;
+			margin-top: 20px;
+		}
+		#content {
+			text-align: center;
+			margin-top: 50px;
+		}
+		table {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		td {
+			text-align: left;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		Store ID: 12345 <br>
+		Manager: xxxx
+	</div>
+	<div id="content">
+		<h1> Fill to Maximum </h1>
+		<form>
+			<table> 
+			<tr>
+				<td> <input type="radio" id="html" name="products"> </td>
+				<td> <label>All</label> </td>
+			</tr>
+			<tr> 
+				<td> <input type="radio" id="css" name="products"> </td>
+				<td> <label>Items: <input type="text" placeholder="SKU1, SKU2, ..." size="50"> </label> </td>
+			</tr>
+			</table> <br>
+			<input type="button" value="Fill Stock">
+ 		</form>
+	</div>
+</body>
+</html>

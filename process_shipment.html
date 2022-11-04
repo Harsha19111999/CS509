@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Process Shipment</title>
+	<style type="text/css">
+		#header {
+			text-align: right;
+			font-weight: bold;
+			margin-right: 20px;
+			margin-top: 20px;
+		}
+		#content {
+			text-align: center;
+			margin-top: 50px;
+		}
+		table {
+			margin-left: auto;
+			margin-right: auto;
+			border: 1px solid black;
+		}
+		td, th {
+			padding: 10px;
+			border: 1px solid black;
+		}
+		textarea {
+			width: 400px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		Store ID: 12345 <br>
+		Manager: xxxx
+	</div> 
+	<div id=content>
+		<h1> Process Shipment </h1>
+		<form> 
+			<textarea value="Input JSON"></textarea> <br>
+			<input type="button" value="Process"> 
+		</form>
+		<br> <br>
+		<h3> Added the following items to store: </h3>
+		<table>
+			<tr>
+				<th> SKU </th>
+				<th> Name </th>
+				<th> Quantity </th>
+			</tr>
+			<tr>
+				<td> 0231 </td>
+				<td> Dove </td>
+				<td> 300 </td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
